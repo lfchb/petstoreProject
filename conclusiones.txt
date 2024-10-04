@@ -1,0 +1,10 @@
+Conclusiones:
+
+1. Este repositorio incluye la implementación de cuatro pruebas que abarcan las funcionalidades fundamentales de la API de gestión de mascotas, tales como la creación, búsqueda y actualización de mascotas. Esto establece una sólida base para verificar el comportamiento esperado de la API.
+2. Las pruebas contemplan validaciones de las respuestas de la API, asegurando no solo la recepción de un código de estado correcto (200), sino también que los datos devueltos coincidan con los valores y la estructura JSON esperados.
+3. La capacidad de capturar el petId y utilizarlo en pruebas posteriores simula un flujo de trabajo realista, donde los datos generados en un paso se emplean en los siguientes.
+4. La definición de peticiones como variables reutilizables contribuye a mantener el código limpio y facilita futuras modificaciones en la estructura de los datos.
+5. El uso de la API de Swagger como referencia garantiza que las pruebas estén alineadas con la documentación oficial, lo que ayuda a validar la conformidad con los estándares establecidos.
+6. Aunque el repositorio contiene únicamente pruebas de "happy path", se pueden agregar pruebas que manejen casos de error, como la creación de una mascota con datos incompletos o incorrectos. Esto asegurará que la API responda adecuadamente en situaciones no ideales.
+7. Se pueden incluir validaciones adicionales para comprobar que los datos de entrada cumplan con ciertos criterios antes de enviarlos a la API, como validaciones de formato y longitud de campos, las cuales podrían implementarse en un archivo .feature o en un script de JavaScript.
+8. Utilizar datos de entrada desde un archivo externo (como un archivo JSON) facilitará la modificación y reutilización de datos en las pruebas, mejorando la flexibilidad del conjunto de pruebas.

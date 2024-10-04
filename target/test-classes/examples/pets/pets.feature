@@ -6,6 +6,9 @@ Feature: Pets
 
 
   Scenario: Create a pet
+    * def isValidName = function(name) {return /[A-Za-z0-9]+/.test(name) && name.length <= 50;}
+    * def isValidLength = function(field, maxLength) {return field.length <= maxLength;}
+    * def validatePetData = function(petData) { if (!isValidName(petData.name)) karate.fail('El nombre de la mascota no es válido'); if (!isValidLength(petData.name, 50)) karate.fail('El nombre de la mascota excede el máximo permitido de 50 caracteres');}
     * def create_pet_request =
     """
     {
@@ -27,6 +30,7 @@ Feature: Pets
       "status": "available"
     }
     """
+    * validatePetData(create_pet_request)
     Given path '/pet'
     And request create_pet_request
     When method post

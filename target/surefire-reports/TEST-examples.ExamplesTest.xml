@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="4.16" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="2.828" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/liliana/Documentos/PRACTICAS/KARATE/petstoreProject/target/surefire/surefirebooter-20241002102544630_3.jar /home/liliana/Documentos/PRACTICAS/KARATE/petstoreProject/target/surefire 2024-10-02T10-25-44_562-jvmRun1 surefire-20241002102544630_1tmp surefire_0-20241002102544630_2tmp"/>
+    <property name="sun.java.command" value="/home/liliana/Documentos/PRACTICAS/KARATE/petstoreProject/target/surefire/surefirebooter-20241004065728401_3.jar /home/liliana/Documentos/PRACTICAS/KARATE/petstoreProject/target/surefire 2024-10-04T06-57-28_356-jvmRun1 surefire-20241004065728401_1tmp surefire_0-20241004065728401_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/liliana/Documentos/PRACTICAS/KARATE/petstoreProject/target/test-classes:/home/liliana/Documentos/PRACTICAS/KARATE/petstoreProject/target/classes:/home/liliana/.m2/repository/io/karatelabs/karate-junit5/1.5.0/karate-junit5-1.5.0.jar:/home/liliana/.m2/repository/io/karatelabs/karate-core/1.5.0/karate-core-1.5.0.jar:/home/liliana/.m2/repository/org/graalvm/js/js-scriptengine/24.0.0/js-scriptengine-24.0.0.jar:/home/liliana/.m2/repository/org/graalvm/polyglot/polyglot/24.0.0/polyglot-24.0.0.jar:/home/liliana/.m2/repository/org/graalvm/sdk/collections/24.0.0/collections-24.0.0.jar:/home/liliana/.m2/repository/org/graalvm/sdk/nativeimage/24.0.0/nativeimage-24.0.0.jar:/home/liliana/.m2/repository/org/graalvm/sdk/word/24.0.0/word-24.0.0.jar:/home/liliana/.m2/repository/org/graalvm/js/js-language/24.0.0/js-language-24.0.0.jar:/home/liliana/.m2/repository/org/graalvm/regex/regex/24.0.0/regex-24.0.0.jar:/home/liliana/.m2/repository/org/graalvm/truffle/truffle-api/24.0.0/truffle-api-24.0.0.jar:/home/liliana/.m2/repository/org/graalvm/shadowed/icu4j/24.0.0/icu4j-24.0.0.jar:/home/liliana/.m2/repository/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar:/home/liliana/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/home/liliana/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/home/liliana/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/home/liliana/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/home/liliana/.m2/repository/com/linecorp/armeria/armeria/1.29.2/armeria-1.29.2.jar:/home/liliana/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.1/jackson-core-2.17.1.jar:/home/liliana/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.1/jackson-annotations-2.17.1.jar:/home/liliana/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.1/jackson-databind-2.17.1.jar:/home/liliana/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.1/jackson-datatype-jdk8-2.17.1.jar:/home/liliana/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.1/jackson-datatype-jsr310-2.17.1.jar:/home/liliana/.m2/repository/io/micrometer/micrometer-core/1.13.0/micrometer-core-1.13.0.jar:/home/liliana/.m2/repository/io/micrometer/micrometer-commons/1.13.0/micrometer-commons-1.13.0.jar:/home/liliana/.m2/repository/io/micrometer/micrometer-observation/1.13.0/micrometer-observation-1.13.0.jar:/home/liliana/.m2/repository/org/hdrhistogram/HdrHistogram/2.2.1/HdrHistogram-2.2.1.jar:/home/liliana/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/home/liliana/.m2/repository/io/netty/netty-transport/4.1.110.Final/netty-transport-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-common/4.1.110.Final/netty-common-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-buffer/4.1.110.Final/netty-buffer-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-resolver/4.1.110.Final/netty-resolver-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-codec-haproxy/4.1.110.Final/netty-codec-haproxy-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-codec/4.1.110.Final/netty-codec-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-codec-http2/4.1.110.Final/netty-codec-http2-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-handler/4.1.110.Final/netty-handler-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-codec-http/4.1.110.Final/netty-codec-http-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-resolver-dns/4.1.110.Final/netty-resolver-dns-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-codec-dns/4.1.110.Final/netty-codec-dns-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.110.Final/netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar:/home/liliana/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.110.Final/netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar:/home/liliana/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.110.Final/netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar:/home/liliana/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.110.Final/netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar:/home/liliana/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/home/liliana/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/liliana/.m2/repository/io/netty/netty-handler-proxy/4.1.110.Final/netty-handler-proxy-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-codec-socks/4.1.110.Final/netty-codec-socks-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-transport-native-epoll/4.1.110.Final/netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar:/home/liliana/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.110.Final/netty-transport-native-unix-common-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.110.Final/netty-transport-classes-epoll-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-transport-native-epoll/4.1.110.Final/netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar:/home/liliana/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.110.Final/netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar:/home/liliana/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.110.Final/netty-transport-classes-kqueue-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.110.Final/netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar:/home/liliana/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.110.Final/netty-resolver-dns-classes-macos-4.1.110.Final.jar:/home/liliana/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.110.Final/netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar:/home/liliana/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.110.Final/netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar:/home/liliana/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.65.Final/netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar:/home/liliana/.m2/repository/io/netty/netty-tcnative-classes/2.0.65.Final/netty-tcnative-classes-2.0.65.Final.jar:/home/liliana/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.65.Final/netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar:/home/liliana/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.65.Final/netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar:/home/liliana/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.65.Final/netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar:/home/liliana/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.65.Final/netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar:/home/liliana/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.16.0/brotli4j-1.16.0.jar:/home/liliana/.m2/repository/com/aayushatharva/brotli4j/service/1.16.0/service-1.16.0.jar:/home/liliana/.m2/repository/com/aayushatharva/brotli4j/native-linux-x86_64/1.16.0/native-linux-x86_64-1.16.0.jar:/home/liliana/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/home/liliana/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/home/liliana/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/home/liliana/.m2/repository/ch/qos/logback/logback-classic/1.5.4/logback-classic-1.5.4.jar:/home/liliana/.m2/repository/ch/qos/logback/logback-core/1.5.4/logback-core-1.5.4.jar:/home/liliana/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.12/jcl-over-slf4j-2.0.12.jar:/home/liliana/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/home/liliana/.m2/repository/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar:/home/liliana/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/home/liliana/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/home/liliana/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/home/liliana/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/home/liliana/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/liliana/.m2/repository/de/siegmar/fastcsv/3.1.0/fastcsv-3.1.0.jar:/home/liliana/.m2/repository/info/picocli/picocli/4.7.5/picocli-4.7.5.jar:/home/liliana/.m2/repository/io/github/classgraph/classgraph/4.8.170/classgraph-4.8.170.jar:/home/liliana/.m2/repository/io/github/t12y/resemble/1.1.0/resemble-1.1.0.jar:/home/liliana/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/home/liliana/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/liliana/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/liliana/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/liliana/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/liliana/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/liliana/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/liliana/Documentos/PRACTICAS/KARATE/petstoreProject/target/surefire/surefirebooter-20241002102544630_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/liliana/Documentos/PRACTICAS/KARATE/petstoreProject/target/surefire/surefirebooter-20241004065728401_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+7-Ubuntu-1ubuntu224.04"/>
     <property name="user.name" value="liliana"/>
@@ -54,13 +54,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testParallel" classname="examples.ExamplesTest" time="4.133">
-    <system-out><![CDATA[10:25:45.940 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-10:25:47.039 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
-10:25:47.039 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
-10:25:47.039 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
-10:25:47.039 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
-10:25:47.341 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="2.815">
+    <system-out><![CDATA[06:57:29.106 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+06:57:29.677 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+06:57:29.677 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+06:57:29.677 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+06:57:29.677 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+06:57:29.852 [pool-2-thread-4] DEBUG com.intuit.karate - request:
 1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
 1 > Host: petstore.swagger.io
 1 > Connection: Keep-Alive
@@ -68,17 +68,7 @@
 1 > Accept-Encoding: gzip,deflate
 
 
-10:25:47.341 [pool-2-thread-3] DEBUG com.intuit.karate - request:
-1 > POST https://petstore.swagger.io/v2/pet
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 139
-1 > Host: petstore.swagger.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.4)
-1 > Accept-Encoding: gzip,deflate
-{"id":0,"category":{"id":0,"name":"string"},"name":"pulgoso","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
-
-10:25:47.341 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+06:57:29.852 [pool-2-thread-1] DEBUG com.intuit.karate - request:
 1 > POST https://petstore.swagger.io/v2/pet
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 136
@@ -88,7 +78,17 @@
 1 > Accept-Encoding: gzip,deflate
 {"id":0,"category":{"id":0,"name":"string"},"name":"fido","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
 
-10:25:47.341 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+06:57:29.852 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 139
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.4)
+1 > Accept-Encoding: gzip,deflate
+{"id":0,"category":{"id":0,"name":"string"},"name":"pulgoso","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+06:57:29.852 [pool-2-thread-2] DEBUG com.intuit.karate - request:
 1 > POST https://petstore.swagger.io/v2/pet
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 137
@@ -98,9 +98,9 @@
 1 > Accept-Encoding: gzip,deflate
 {"id":0,"category":{"id":0,"name":"string"},"name":"rocko","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
 
-10:25:48.002 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 657
+06:57:30.729 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 873
 1 < 200
-1 < Date: Wed, 02 Oct 2024 15:25:47 GMT
+1 < Date: Fri, 04 Oct 2024 11:57:30 GMT
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -108,11 +108,11 @@
 1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 1 < Server: Jetty(9.2.9.v20150224)
-{"id":9223372036854097668,"category":{"id":0,"name":"string"},"name":"rocko","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+{"id":9223372036854775807,"category":{"id":0,"name":"string"},"name":"rocko","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
 
-10:25:48.003 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 657
+06:57:30.729 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 873
 1 < 200
-1 < Date: Wed, 02 Oct 2024 15:25:47 GMT
+1 < Date: Fri, 04 Oct 2024 11:57:30 GMT
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -120,11 +120,11 @@
 1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 1 < Server: Jetty(9.2.9.v20150224)
-{"id":9223372036854097666,"category":{"id":0,"name":"string"},"name":"pulgoso","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+{"id":9223372036854775807,"category":{"id":0,"name":"string"},"name":"pulgoso","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
 
-10:25:48.003 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 657
+06:57:30.729 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 874
 1 < 200
-1 < Date: Wed, 02 Oct 2024 15:25:47 GMT
+1 < Date: Fri, 04 Oct 2024 11:57:30 GMT
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -132,11 +132,11 @@
 1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 1 < Server: Jetty(9.2.9.v20150224)
-[{"id":9223372036854096813,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":40501,"category":{"id":1,"name":"Dog"},"name":"Cooper","photoUrls":["http://test_link.jpg"],"tags":[{"id":11,"name":"Shepherd"}],"status":"sold"},{"id":9223372036854096836,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854096851,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":20593238,"category":{"id":96650357,"name":"ut aute"},"name":"doggie","photoUrls":["in deserunt sit qui elit","do dolore"],"tags":[{"id":80489283,"name":"dolore elit aute Excepteur anim"},{"id":-29854588,"name":"enim"}],"status":"sold"},{"id":9223372036854096883,"category":{"id":35,"name":"caini"},"name":"Bret","photoUrls":[],"tags":[{"id":1,"name":"dalmatian"}],"status":"sold"},{"id":9223372036854096884,"name":"Bret","photoUrls":[],"tags":[{"id":1,"name":"dalmatian"}],"status":"sold"},{"id":1234567,"category":{"id":35,"name":"caini"},"name":"Grivei update","photoUrls":[],"tags":[{"id":1,"name":"dalmatian"}],"status":"sold"},{"id":7574746,"category":{"id":1,"name":"Cat"},"name":"Hardy","photoUrls":["https://i.pinimg.com/originals/5c/2c/44/5c2c44f16da1caf134c00bc4f9c72ea0.jpg"],"tags":[{"id":7805,"name":"Mainecoon"}],"status":"sold"},{"id":32092,"category":{"id":1,"name":"Dog"},"name":"Cooper","photoUrls":["http://test_link.jpg"],"tags":[{"id":11,"name":"Shepherd"}],"status":"sold"},{"id":8118,"category":{"id":888,"name":"dog"},"name":"butcher","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854097150,"category":{"id":0,"name":"raven"},"name":"Rex","photoUrls":["https://example.com/image8786.jpg"],"tags":[{"id":0,"name":"bat"}],"status":"sold"},{"id":9223372036854097155,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854097172,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854097181,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854097198,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854097211,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854097322,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854097342,"category":{"id":345,"name":"Fish555"},"name":"Goldy","photoUrls":["www.google.com","www.facebook.com"],"tags":[{"id":33,"name":"Golden"}],"status":"sold"},{"id":9223372036854097359,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":10,"category":{"id":10,"name":"string"},"name":"Hershey","photoUrls":["string"],"tags":[{"id":10,"name":"string"}],"status":"sold"},{"id":9223372036854097389,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854097405,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854097418,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854097441,"category":{"id":0,"name":"string"},"name":"pecas","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854097654,"category":{"id":0,"name":"string"},"name":"rufo","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}]
+{"id":9223372036854775807,"category":{"id":0,"name":"string"},"name":"fido","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
 
-10:25:48.003 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 657
+06:57:30.729 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 874
 1 < 200
-1 < Date: Wed, 02 Oct 2024 15:25:47 GMT
+1 < Date: Fri, 04 Oct 2024 11:57:30 GMT
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -144,20 +144,20 @@
 1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 1 < Server: Jetty(9.2.9.v20150224)
-{"id":9223372036854097667,"category":{"id":0,"name":"string"},"name":"fido","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+[{"id":7574746,"category":{"id":1,"name":"Cat"},"name":"Hardy","photoUrls":["https://i.pinimg.com/originals/5c/2c/44/5c2c44f16da1caf134c00bc4f9c72ea0.jpg"],"tags":[{"id":7805,"name":"Mainecoon"}],"status":"sold"},{"id":331241414211,"category":{"id":3,"name":"123"},"name":"ddwq","photoUrls":["123","123131"],"tags":[{"id":1,"name":"123"}],"status":"sold"},{"id":17,"name":"Special_char_owner_!@#$^&()`.testing","photoUrls":["https://petstore3.swagger.io/resources/photos/623389095.jpg"],"tags":[],"status":"sold"},{"id":19467,"name":"見響见响仮仏!$%&()*+,-ƄƅƆḞḟṀʶʷʸăĄą","photoUrls":["https://petstore3.swagger.io/resources/photos/623389095.jpg"],"tags":[],"status":"sold"},{"id":9223372036854775642,"category":{"id":-29225102,"name":"Excepteur fugiat ut in"},"name":"doggie","photoUrls":["officia quis co","sit Lore"],"tags":[{"id":-9027978,"name":"enim"},{"id":-12646892,"name":"dolor exercitation eu elit"}],"status":"sold"},{"id":9223372036854775643,"category":{"id":-38125463,"name":"irure officia Excepteur a"},"name":"doggie","photoUrls":["mollit sint anim Excepteur","fugiat non nostrud amet"],"tags":[{"id":91190600,"name":"velit aute"},{"id":83461469,"name":"eiusmod sed deserunt proident"}],"status":"sold"},{"id":664041,"category":{"id":531587,"name":"sabre"},"name":"puppy2","photoUrls":["string"],"tags":[{"id":678887,"name":"sohan"}],"status":"sold"},{"id":567,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}]
 
-10:25:48.017 [pool-2-thread-2] INFO  com.intuit.karate - [print] pet id is:  9223372036854097668 
-10:25:48.026 [pool-2-thread-3] INFO  com.intuit.karate - [print] pet id is:  9223372036854097666 
-10:25:48.031 [pool-2-thread-2] DEBUG com.intuit.karate - request:
-2 > GET https://petstore.swagger.io/v2/pet/9223372036854097668
+06:57:30.741 [pool-2-thread-2] INFO  com.intuit.karate - [print] pet id is:  9223372036854775807 
+06:57:30.747 [pool-2-thread-3] INFO  com.intuit.karate - [print] pet id is:  9223372036854775807 
+06:57:30.751 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+2 > GET https://petstore.swagger.io/v2/pet/9223372036854775807
 2 > Host: petstore.swagger.io
 2 > Connection: Keep-Alive
 2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.4)
 2 > Accept-Encoding: gzip,deflate
 
 
-10:25:48.035 [pool-2-thread-3] DEBUG com.intuit.karate - request:
-2 > POST https://petstore.swagger.io/v2/pet/9223372036854097666?name=rufo&status=sold
+06:57:30.752 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+2 > POST https://petstore.swagger.io/v2/pet/9223372036854775807?name=rufo&status=sold
 2 > accept: application/json
 2 > content-type: application/x-www-form-urlencoded
 2 > Host: petstore.swagger.io
@@ -166,9 +166,9 @@
 2 > Accept-Encoding: gzip,deflate
 
 
-10:25:48.346 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 313
+06:57:31.043 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 290
 2 < 200
-2 < Date: Wed, 02 Oct 2024 15:25:48 GMT
+2 < Date: Fri, 04 Oct 2024 11:57:30 GMT
 2 < Content-Type: application/json
 2 < Transfer-Encoding: chunked
 2 < Connection: keep-alive
@@ -176,11 +176,11 @@
 2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 2 < Server: Jetty(9.2.9.v20150224)
-{"id":9223372036854097668,"category":{"id":0,"name":"string"},"name":"rocko","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+{"code":200,"type":"unknown","message":"9223372036854775807"}
 
-10:25:48.351 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 314
+06:57:31.043 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 291
 2 < 200
-2 < Date: Wed, 02 Oct 2024 15:25:48 GMT
+2 < Date: Fri, 04 Oct 2024 11:57:30 GMT
 2 < Content-Type: application/json
 2 < Transfer-Encoding: chunked
 2 < Connection: keep-alive
@@ -188,18 +188,18 @@
 2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 2 < Server: Jetty(9.2.9.v20150224)
-{"code":200,"type":"unknown","message":"9223372036854097666"}
+{"id":9223372036854775807,"category":{"id":0,"name":"string"},"name":"rufo","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}
 
 ---------------------------------------------------------
 feature: classpath:examples/pets/pets.feature
-scenarios:  4 | passed:  4 | failed:  0 | time: 4,4644
+scenarios:  4 | passed:  4 | failed:  0 | time: 4,8042
 ---------------------------------------------------------
 
-10:25:49.045 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/pets/pets.feature
+06:57:31.404 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/pets/pets.feature
 Karate version: 1.5.0
 ======================================================
-elapsed:   3,64 | threads:    5 | thread time: 4,46 
-features:     1 | skipped:    0 | efficiency: 0,25
+elapsed:   2,58 | threads:    5 | thread time: 4,80 
+features:     1 | skipped:    0 | efficiency: 0,37
 scenarios:    4 | passed:     4 | failed: 0
 ======================================================
 
